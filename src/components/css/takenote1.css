@@ -1,0 +1,157 @@
+.note1{
+    width: 48vw;
+    height:7vh;
+    border: 1px solid #808080;
+    box-shadow: 5px 2px 5px 2px #DCDCDC;
+    border-radius: 8px 8px 8px 8px;
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    margin-top: 0px;
+    margin-left: 400px;
+    
+  }
+  .takeanotefeild{
+      margin-left: 15px;
+      display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+     
+  }
+  .searchfld{
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    margin-top: 12px;
+    width:120px;
+  }
+  /* .checkbox{
+      margin-left: 250px;
+      margin-bottom: 180px;
+  } */
+  .checkbox button{
+    width: 25px;
+    height:25px;
+    background-image: url(../assests/checkbox.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    /* margin-left: 20px; */
+    border: none;
+    outline:none;
+    background-color: white;
+    margin-left: 240px;
+    /* margin-bottom: 180px; */
+    
+}
+/* .checkbox img{
+    width:10px;
+    height:10px;
+   
+
+} */
+.newnote button{
+    width: 25px;
+    height:25px;
+    background-image: url(../assests/drawimagenote2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 25px;
+    border: none;
+    outline:none;
+}
+.newimg button{
+    width: 25px;
+    height:25px;
+    background-image: url(../assests/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 25px;
+    border: none;
+    outline:none;
+    background-color: white;
+
+} 
+@media only screen and (min-width : 280px ) and (max-width : 320px ){
+    .note1{
+        width: 72vw;
+        height:5vh;
+        border: 1px solid #808080;
+        border-radius: 8px 8px 8px 8px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+        margin-left: 70px;
+        
+      }
+      .searchfld{
+          border: 2px solid red;
+          width: 60px;
+        font-size: 12px;
+        border: none;
+        background-color: transparent;
+        resize: none;
+        outline: none;
+        margin-top: 7px;
+        margin-left: 3px;
+       
+
+      }
+      .takeanotefeild{
+        /* margin-left: 15px; */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+       
+    }
+      .checkbox button{
+        width: 15px;
+        height:15px;
+        background-image: url(../assests/checkbox.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 10px;
+        /* margin-left: 20px; */
+        border: none;
+        outline:none;
+        background-color: white;
+        margin-left: 0px;
+        /* margin-bottom: 180px; */
+        
+    }
+    /* .checkbox img{
+        width:10px;
+        height:10px;
+       
+    
+    } */
+    .newnote button{
+        width: 15px;
+        height:15px;
+        background-image: url(../assests/drawimagenote2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        outline:none;
+    }
+    .newimg button{
+        width: 15px;
+        height:15px;
+        background-image: url(../assests/img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        outline:none;
+        background-color: white;
+    
+    } 
+
+}

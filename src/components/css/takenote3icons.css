@@ -1,0 +1,191 @@
+.downicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.remind{
+    width: 20px;
+    height:20px;
+    background-image: url(https://img.icons8.com/material/2x/appointment-reminders.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 3px;
+    margin-top: 16px;
+    /* margin-left: 20px; */
+}
+.collabartor{
+    width: 20px;
+    height:20px;
+    background-image: url(https://img.icons8.com/windows/2x/user-male-circle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 10px;
+    margin-top: 15px;
+
+}
+.changecolor{
+    width: 20px;
+    height:20px;
+    background-image: url(https://img.icons8.com/windows/2x/paint-palette.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 10px;
+    margin-top: 18px;
+
+}
+.addimg{
+    width: 20px;
+    height:20px;
+    background-image: url(../assests/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 10px;
+    margin-top: 16px;
+
+}
+.archive{
+    width: 14px;
+    height:14px;
+    background-image: url(../assests/archive.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+.vmore{
+    width: 25px;
+    height:25px;
+    background-image: url(https://img.icons8.com/windows/2x/menu-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 10px;
+    margin-top: 14px;
+
+}
+.delete{
+    width: 18px;
+    height:18px;
+    background-image: url(https://img.icons8.com/material/2x/trash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 10px;
+    margin-top: 18px;
+
+}
+@media only screen and (min-width : 280px ) and (max-width : 320px ){
+    .remind{
+        width: 10px;
+        height:10px;
+        background-image: url(https://img.icons8.com/material/2x/appointment-reminders.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 5px;
+        /* margin-top: 16px; */
+        /* margin-left: 20px; */
+    }
+    .collabartor{
+        width: 10px;
+        height:10px;
+        background-image: url(https://img.icons8.com/windows/2x/user-male-circle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 5px;
+        /* margin-top: 15px; */
+    
+    }
+    .changecolor{
+        width: 10px;
+        height:10px;
+        background-image: url(https://img.icons8.com/windows/2x/paint-palette.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 5px;
+        /* margin-top: 18px; */
+    
+    }
+    .addimg{
+        width: 10px;
+        height:10px;
+        background-image: url(../assests/img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 5px;
+        /* margin-top: 16px; */
+    
+    }
+    .archive{
+        width: 5px;
+        height:9px;
+        background-image: url(../assests/archive.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 5px;
+        /* margin-top: 20px; */
+    
+    }
+    .vmore{
+        width: 12px;
+        height:12px;
+        background-image: url(https://img.icons8.com/windows/2x/menu-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 5px;
+        /* margin-top: 14px; */
+    
+    }
+    .delete{
+        width: 9px;
+        height:9px;
+        background-image: url(https://img.icons8.com/material/2x/trash.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 5px;
+        /* margin-top: 18px; */
+    
+    }
+   
+
+}

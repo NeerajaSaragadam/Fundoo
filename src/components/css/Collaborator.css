@@ -1,0 +1,106 @@
+.Collaboratormain{
+    width: 40vw;
+    max-height: 80vh;
+    min-height:40vh;
+    border: 1px solid #808080;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 2px 5px 2px #DCDCDC;
+    margin-left: 400px;
+}
+.Collaborator{ 
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    padding: 0px;
+    margin-top: 0px;
+}
+.Collaborator h3 {
+   
+    margin-top: 5px;
+}
+hr{
+    width: 37vw;
+}
+.owner{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.owner img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.owner h4{
+    margin-top: 10px;
+}
+.owner span{
+    margin-top: 12px;
+}
+.oemail{
+    margin-top: 30px;
+    margin-left: -201px;
+    font-size: 12px;
+}
+.owner1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.owner1 img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    /* margin: 5px; */
+}
+.card11{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    width:40vw;
+    height:9vh;
+    margin-top: 36px;
+    background-color: rgba(0,0,0,0.07);
+}
+.cancel{
+    width: 60px;
+    margin: 10px;
+    margin-left: 350px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.save{
+    width: 60px;
+    margin: 10px;
+    margin-left: 50px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.getemail{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.getemail img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+.inputemail{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-top: 0px;
+}

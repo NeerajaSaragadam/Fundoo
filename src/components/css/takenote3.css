@@ -1,0 +1,106 @@
+.takenote3{
+    width: 20vw;
+    min-height:22vh;
+    max-height: 30vh;
+    border: 1px solid #808080;
+    border-radius: 8px 8px 8px 8px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    margin-top: 40px;
+    margin-left: 20px;
+    
+  }
+  .takenote31{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .dwnicn{
+    margin-top: 8px;
+  }
+  .card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+    width:270px;
+    height: 30px;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+    font-size:18px;
+    background-color: transparent;
+
+  }
+  .card2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+    width:270px;
+    height: 30px;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+    font-size:18px;
+    background-color: transparent;
+
+  }
+  /* .card2{
+    height: 30px;
+    width: 6opx;
+    
+     margin: 2px;
+    font-size:18px;
+  }
+   */
+
+   @media only screen and (min-width : 280px ) and (max-width : 320px ){
+    .takenote3{
+      width: 72vw;
+      height:12vh;
+      border: 1px solid #808080;
+      border-radius: 8px 8px 8px 8px;
+      display: flex;
+     
+      margin-top: 20px;
+      margin-left: 00px;
+      
+    }
+    .card1{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start !important;
+      width:170px;
+      height: 10px;
+      margin-bottom: 3px;
+      outline: none;
+      border: none;
+      font-size:12px;
+      background-color: transparent;
+  
+    }
+    .card2{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start !important;
+      width:170px;
+      height: 10px;
+      margin-bottom: 3px;
+      outline: none;
+      border: none;
+      font-size:12px;
+      background-color: transparent;
+  
+    }
+    .dwnicn{
+      height: 15px;
+      /* margin-top: 10px; */
+      /* border: 2px solid green; */
+      margin-left: 2px;
+    }
+    #modalstyle{
+      /* border: 2px solid red; */
+      width: 200px;
+      height: 160px;
+    }
+
+   }

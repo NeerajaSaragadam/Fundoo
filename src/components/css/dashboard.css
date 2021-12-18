@@ -1,0 +1,56 @@
+/* .drawlist{
+    border: 2px solid green;
+
+    margin-bottom: 100px;
+    width: 30vw;
+    height:80vh;
+} */
+.header{
+    width:100vw;
+    height:10vh
+}
+
+.drawer{
+   
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width:18vw;
+    height:5vh;
+}
+.notescontainer{
+    /* margin-left: 200px; */
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    /* position: relative; */
+    margin-top: 0px;
+    margin-left: 210px;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width : 280px ) and (max-width : 320px ){
+    .notescontainer{
+        /* margin-left: 200px; */
+        /* border: 2px solid red; */
+        /* position: absolute; */
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+        width: 70vw;
+        height: 90vh;
+      
+       
+        /* flex-wrap: wrap; */
+    }
+    .drawer{
+   
+        display: flex;
+        flex-direction: row;
+        width:18vw;
+        height:0vh;
+    }
+
+}

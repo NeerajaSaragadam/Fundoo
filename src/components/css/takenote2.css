@@ -1,0 +1,376 @@
+.note2{
+    width: 48vw;
+    min-height:21vh;
+    max-height: 35;
+    border: 1px solid #808080;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 2px 5px 2px #DCDCDC;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 40px; */
+    margin-left: 400px;
+    
+}
+.takeanote2feild{
+    display: flex;
+    flex-direction: column;
+}
+.titlesearch{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.searchfld2{
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+.titlesearch button{
+    width: 25px;
+    height:25px;
+    background-image: url(../assests/pinicon2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin-left: 400px;
+}
+.listitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid #ECECEC;
+    width:102.3%;
+    padding: 6px;
+}
+.searchfld3{
+    margin-left: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+.downicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:40vw;
+   
+}
+.remind2{
+    width: 20px;
+    height:20px;
+    background-image: url(https://img.icons8.com/material/2x/appointment-reminders.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 10px;
+    margin-top: 25px;
+}
+.collabartor2{
+    width: 25px;
+    height:25px;
+    background-image: url(https://img.icons8.com/windows/2x/user-male-circle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 20px;
+
+}
+.changecolor2{
+    width: 20px;
+    height:20px;
+    background-image: url(https://img.icons8.com/windows/2x/paint-palette.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 25px;
+
+}
+.addimg2{
+    width: 23px;
+    height:23px;
+    background-image: url(../assests/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 20px;
+
+}
+.archive2{
+    width: 16px;
+    height:16px;
+    background-image: url(../assests/archive.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 22px;
+
+}
+.vmore2{
+    width: 25px;
+    height:25px;
+    background-image: url(https://img.icons8.com/windows/2x/menu-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 20px;
+    margin-top: 15px;
+
+}
+.undo2{
+    width: 15px;
+    height:15px;
+    background-image: url(https://img.icons8.com/windows/2x/undo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 20px;
+    
+
+}
+.redo2{
+    width: 20px;
+    height:20px;
+    background-image: url(https://img.icons8.com/windows/2x/redo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    margin: 20px;
+
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.close2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+   margin-top: 18px;
+    margin-left: 25px;
+    border: none;
+    outline:none;
+    background-color: transparent;
+}
+.collabicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* width: 10px;
+    height:25px; */
+    /* width: 10px;
+    height: 10px; */
+}
+.collabicon img{
+    width: 25px;
+    height:25px;
+
+}
+.collab{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+/* .popper{
+    border: 2px solid green;
+} */
+
+@media only screen and (min-width : 280px ) and (max-width : 320px ){
+    .note2{
+        /* border:2px solid red; */
+        width: 73vw;
+        height:21vh;
+        border: 1px solid #808080;
+        display: flex;
+        flex-direction: row;
+        margin-left:70px;
+        
+    }
+    .titlesearch{
+        margin: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+    .searchfld2{
+        font-size: 12px;
+        border: none;
+        background-color: transparent;
+        resize: none;
+        outline: none;
+        padding: 3px;
+    }
+    .titlesearch button{
+        width: 12px;
+        height:12px;
+        background-image: url(../assests/pinicon2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin-left: 40px;
+    }
+    .listitem{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        border: 1px solid #ECECEC;
+        width: 108%;
+        padding: 8px;
+    }
+    .searchfld3{
+        margin-left: 5px;
+        font-size: 12px;
+        border: none;
+        background-color: transparent;
+        resize: none;
+        outline: none;
+    }
+    .downicons{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .remind2{
+        width: 10px;
+        height:10px;
+        background-image: url(https://img.icons8.com/material/2x/appointment-reminders.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 5px;
+        margin-top: 15px;
+    }
+    .collabartor2{
+        width: 12px;
+        height:12px;
+        background-image: url(https://img.icons8.com/windows/2x/user-male-circle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 6px;
+        margin-top: 15px;
+    
+    }
+    .changecolor2{
+        width: 10px;
+        height:10px;
+        background-image: url(https://img.icons8.com/windows/2x/paint-palette.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 8px;
+        margin-top: 15px;
+    
+    }
+    .addimg2{
+        width: 15px;
+        height:15px;
+        background-image: url(../assests/img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 6px;
+        margin-top: 15px;
+    
+    }
+    .archive2{
+        width: 8px;
+        height:10px;
+        background-image: url(../assests/archive.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 8px;
+        margin-top: 18px;
+    
+    }
+    .vmore2{
+        width: 12px;
+        height:12px;
+        background-image: url(https://img.icons8.com/windows/2x/menu-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 6px;
+        margin-top: 8px;
+        margin-top: 15px;
+    
+    }
+    .undo2{
+        width: 8px;
+        height:8px;
+        background-image: url(https://img.icons8.com/windows/2x/undo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 6px;
+        margin-top: 15px;
+    
+    }
+    .redo2{
+        width: 10px;
+        height:10px;
+        background-image: url(https://img.icons8.com/windows/2x/redo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        outline:none;
+        background-color: transparent;
+        margin: 6px;
+        margin-top: 15px;
+    
+    }
+    .close2{
+        height: 15px;
+        width: 30px;
+        font-size: 12px;
+        margin-top: 35px;
+        margin-left: 45px;
+        /* margin-right: 520px; */
+        border: none;
+        outline:none;
+        background-color: transparent;
+    }
+    
+
+}
